@@ -35,7 +35,7 @@ dev = ["pytest>=8", "ruff==0.16.1", "PyYAML>=6.0", "openpyxl>=3.1"]
 powerbi-agent = "powerbi_agent.app:main"
 
 [project.urls]
-Repository = "https://github.com/ducnguyen221/agent-data-studio"
+Repository = "https://github.com/OPC-VN/agent-data-studio"
 
 [tool.setuptools]
 packages = ["powerbi_agent"]

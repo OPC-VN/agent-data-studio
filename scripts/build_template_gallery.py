@@ -175,7 +175,7 @@ def build(manifest_path: Path) -> int:
             "previews": [],
             "owner": approval["owner"].strip(),
             "license": approval["license"].strip(),
-            "readme_url": f"https://github.com/ducnguyen221/agent-data-studio/tree/main/report-templates/{name}",
+            "readme_url": f"https://github.com/OPC-VN/agent-data-studio/tree/main/report-templates/{name}",
         })
     payload = json.dumps({"kits": kits}, ensure_ascii=False, indent=2) + "\n"
     # Chỉ xuất metadata text-only: một file JSON thay thế nguyên tử, không copy asset.

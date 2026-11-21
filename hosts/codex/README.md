@@ -3,7 +3,7 @@
 Codex là giá trị mặc định của bộ cài. Muốn agent cài giúp: dán prompt trong [INSTALL.md](../../INSTALL.md#prompt-copy-dán) vào Codex. Tự cài thì cần Git, Python 3.11–3.14 và Windows cho các tính năng Power BI Desktop.
 
 ```powershell
-git clone https://github.com/ducnguyen221/agent-data-studio "$env:USERPROFILE\agent-data-studio"
+git clone https://github.com/OPC-VN/agent-data-studio "$env:USERPROFILE\agent-data-studio"
 cd "$env:USERPROFILE\agent-data-studio"
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Hosts codex
 ```

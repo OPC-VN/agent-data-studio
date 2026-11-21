@@ -61,5 +61,5 @@
 
 Hướng dẫn agent của repo được cập nhật cho chế độ basic `workspace/` và trạm riêng qua
 `ADS_DATA`. Skill, script và engine lấy từ source repo; cấu hình host chỉ kết nối tới
-source được chọn. Bản sửa đồng bộ với [hướng dẫn bắt đầu](https://github.com/ducnguyen221/agent-data-studio/blob/main/START-HERE.md) và chưa
+source được chọn. Bản sửa đồng bộ với [hướng dẫn bắt đầu](https://github.com/OPC-VN/agent-data-studio/blob/main/START-HERE.md) và chưa
 phải thông báo phát hành hay xác nhận hỗ trợ mọi host.

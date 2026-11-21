@@ -7,7 +7,7 @@ Claude Desktop chỉ nhận **16 công cụ MCP** của Agent Data Studio (truy 
 Cần Git, Python 3.11–3.14 (khuyên dùng 3.12 hoặc 3.13) và Windows. Bước cài do **bạn chạy trong PowerShell**, hoặc nhờ Claude Code / Codex / Antigravity làm theo [`INSTALL.md`](../../INSTALL.md) với host `claude-desktop`:
 
 ```powershell
-git clone https://github.com/ducnguyen221/agent-data-studio "$env:USERPROFILE\agent-data-studio"
+git clone https://github.com/OPC-VN/agent-data-studio "$env:USERPROFILE\agent-data-studio"
 cd "$env:USERPROFILE\agent-data-studio"
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Hosts claude-desktop
 powershell -NoProfile -ExecutionPolicy Bypass -File .\doctor.ps1 -Hosts claude-desktop

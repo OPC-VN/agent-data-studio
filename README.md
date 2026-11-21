@@ -14,9 +14,9 @@ Open Codex, Claude Code, Claude Desktop or Google Antigravity on Windows and pas
 Install Agent Data Studio on this Windows machine for the AI app you are running in
 (Codex, Claude Code, Claude Desktop or Google Antigravity).
 
-Single source: https://github.com/ducnguyen221/agent-data-studio
+Single source: https://github.com/OPC-VN/agent-data-studio
 First read the agent guide at
-https://raw.githubusercontent.com/ducnguyen221/agent-data-studio/main/INSTALL.md
+https://raw.githubusercontent.com/OPC-VN/agent-data-studio/main/INSTALL.md
 (if the link cannot be opened, clone the repo and read its INSTALL.md),
 then follow every step in it: check what the machine already has (Git, Python, PowerShell),
 ask me before installing software or anything that needs admin rights, clone the repo to a
@@ -39,7 +39,7 @@ and what I need to do next.
 To install by hand, you need Git and Python 3.11–3.14 ([machine setup, in Vietnamese](START-HERE.md#chuẩn-bị-máy)); then open PowerShell:
 
 ```powershell
-git clone https://github.com/ducnguyen221/agent-data-studio "$env:USERPROFILE\agent-data-studio"
+git clone https://github.com/OPC-VN/agent-data-studio "$env:USERPROFILE\agent-data-studio"
 cd "$env:USERPROFILE\agent-data-studio"
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Hosts codex
 ```

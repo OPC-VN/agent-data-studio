@@ -10,9 +10,9 @@ Mở ứng dụng AI bạn đang dùng trên Windows và dán nguyên văn yêu 
 Hãy cài Agent Data Studio lên máy Windows này cho chính ứng dụng AI bạn đang chạy
 (Codex, Claude Code, Claude Desktop hoặc Google Antigravity).
 
-Nguồn duy nhất: https://github.com/ducnguyen221/agent-data-studio
+Nguồn duy nhất: https://github.com/OPC-VN/agent-data-studio
 Đọc trước hướng dẫn dành cho agent tại
-https://raw.githubusercontent.com/ducnguyen221/agent-data-studio/main/INSTALL.md
+https://raw.githubusercontent.com/OPC-VN/agent-data-studio/main/INSTALL.md
 (không mở được link thì clone repo rồi đọc file INSTALL.md trong đó),
 rồi làm đúng và đủ các bước trong đó: kiểm tra máy đã có gì (Git, Python, PowerShell),
 hỏi tôi trước khi cài thêm phần mềm hoặc cần quyền admin, clone repo về thư mục an toàn
@@ -55,7 +55,7 @@ Máy không có `winget` (Windows LTSC, Windows Sandbox): tải từ trang chín
 Mở PowerShell và chạy; thay `codex` bằng `claude`, `claude-desktop` hoặc `antigravity` theo ứng dụng bạn dùng:
 
 ```powershell
-git clone https://github.com/ducnguyen221/agent-data-studio "$env:USERPROFILE\agent-data-studio"
+git clone https://github.com/OPC-VN/agent-data-studio "$env:USERPROFILE\agent-data-studio"
 cd "$env:USERPROFILE\agent-data-studio"
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Hosts codex
 ```

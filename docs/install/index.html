@@ -64,7 +64,7 @@
       <a href="../architecture/">Thiết kế</a>
       <a href="./" class="active" aria-current="page">Cài đặt</a>
     </nav>
-    <a class="btn btn-ghost btn-sm gh" href="https://github.com/ducnguyen221/agent-data-studio" target="_blank" rel="noopener">
+    <a class="btn btn-ghost btn-sm gh" href="https://github.com/OPC-VN/agent-data-studio" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.09.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.36-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.4 9.4 0 0 1 2.5-.34c.85 0 1.71.12 2.5.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.59.69.49A10.02 10.02 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
       <span>GitHub</span>
     </a>
@@ -109,15 +109,15 @@
       <span class="ig-node"><svg class="ig-ico" aria-hidden="true"><use href="#i-clip"/></svg><span class="ig-num">1</span></span>
       <span class="step-kicker">Bước 01 / Dán yêu cầu</span>
       <h2>Dán yêu cầu này vào ứng dụng AI của bạn</h2>
-      <p>Mở ứng dụng AI trên máy Windows, bấm <b>Sao chép</b> rồi dán nguyên văn. Agent đọc <a class="plain-link" href="https://github.com/ducnguyen221/agent-data-studio/blob/main/INSTALL.md">hướng dẫn cài dành cho agent</a> và tự nhận ra mình là ứng dụng nào để đăng ký cho đúng.</p>
+      <p>Mở ứng dụng AI trên máy Windows, bấm <b>Sao chép</b> rồi dán nguyên văn. Agent đọc <a class="plain-link" href="https://github.com/OPC-VN/agent-data-studio/blob/main/INSTALL.md">hướng dẫn cài dành cho agent</a> và tự nhận ra mình là ứng dụng nào để đăng ký cho đúng.</p>
       <div class="code-card prompt-card" data-i18n="vi">
         <div class="code-top"><span class="fn">Yêu cầu cài đặt · dùng cho mọi ứng dụng AI</span><button class="copy-btn" type="button" aria-label="Sao chép yêu cầu cài đặt"><span class="lbl">Sao chép</span></button></div>
         <div class="code-scroll"><pre id="prompt-vi"><code>Hãy cài Agent Data Studio lên máy Windows này cho chính ứng dụng AI bạn đang chạy
 (Codex, Claude Code, Claude Desktop hoặc Google Antigravity).
 
-Nguồn duy nhất: https://github.com/ducnguyen221/agent-data-studio
+Nguồn duy nhất: https://github.com/OPC-VN/agent-data-studio
 Đọc trước hướng dẫn dành cho agent tại
-https://raw.githubusercontent.com/ducnguyen221/agent-data-studio/main/INSTALL.md
+https://raw.githubusercontent.com/OPC-VN/agent-data-studio/main/INSTALL.md
 (không mở được link thì clone repo rồi đọc file INSTALL.md trong đó),
 rồi làm đúng và đủ các bước trong đó: kiểm tra máy đã có gì (Git, Python, PowerShell),
 hỏi tôi trước khi cài thêm phần mềm hoặc cần quyền admin, clone repo về thư mục an toàn
@@ -134,9 +134,9 @@ phần mềm đã cài thêm, và việc tôi cần làm tiếp.</code></pre></d
         <div class="code-scroll"><pre id="prompt-en"><code>Install Agent Data Studio on this Windows machine for the AI app you are running in
 (Codex, Claude Code, Claude Desktop or Google Antigravity).
 
-Single source: https://github.com/ducnguyen221/agent-data-studio
+Single source: https://github.com/OPC-VN/agent-data-studio
 First read the agent guide at
-https://raw.githubusercontent.com/ducnguyen221/agent-data-studio/main/INSTALL.md
+https://raw.githubusercontent.com/OPC-VN/agent-data-studio/main/INSTALL.md
 (if the link cannot be opened, clone the repo and read its INSTALL.md),
 then follow every step in it: check what the machine already has (Git, Python, PowerShell),
 ask me before installing software or anything that needs admin rights, clone the repo to a
@@ -231,12 +231,12 @@ và doanh thu, rồi lưu ghi chú vào workspace/outputs/.</code></pre></div>
       <p>Cài Git và Python như bảng ở bước 02, mở PowerShell mới rồi chạy. Thay <code class="inline">codex</code> bằng <code class="inline">claude</code>, <code class="inline">claude-desktop</code> hoặc <code class="inline">antigravity</code> theo ứng dụng bạn dùng.</p>
       <div class="code-card">
         <div class="code-top"><span class="fn">Cài tay · PowerShell</span><button class="copy-btn" type="button" aria-label="Sao chép lệnh cài tay"><span class="lbl">Sao chép</span></button></div>
-        <div class="code-scroll"><pre><code>git clone https://github.com/ducnguyen221/agent-data-studio "$env:USERPROFILE\agent-data-studio"
+        <div class="code-scroll"><pre><code>git clone https://github.com/OPC-VN/agent-data-studio "$env:USERPROFILE\agent-data-studio"
 cd "$env:USERPROFILE\agent-data-studio"
 powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Hosts codex</code></pre></div>
       </div>
       <p class="mode-note">Muốn kiểm máy trước khi cài: chạy <code class="inline">.\doctor.ps1 -Preflight</code> theo cùng cách sau lệnh <code class="inline">cd</code>. Lệnh in 7 dòng <code class="inline">prereq</code> (PowerShell, ExecutionPolicy, Git, Python, ADOMD.NET, Node, az), chưa cần <code class="inline">.venv</code>, và thoát mã 1 nếu có dòng <code class="inline">FAIL</code>. Cài nhiều ứng dụng một lần: <code class="inline">-Hosts codex,claude</code>; doctor và uninstall thì mỗi lần một ứng dụng.</p>
-      <p class="mode-note">Cài xong, chạy <code class="inline">.\doctor.ps1 -Hosts codex</code> theo cùng cách và khởi động lại ứng dụng như bảng ở bước 03. MCP được gộp vào cấu hình người dùng của ứng dụng, nên mọi thư mục mở trong ứng dụng dùng chung server của checkout này: mỗi máy trỏ một checkout. <a class="plain-link" href="https://github.com/ducnguyen221/agent-data-studio/blob/main/hosts/README.md#mcp-được-đăng-ký-ở-cấu-hình-người-dùng">Xem giới hạn</a></p>
+      <p class="mode-note">Cài xong, chạy <code class="inline">.\doctor.ps1 -Hosts codex</code> theo cùng cách và khởi động lại ứng dụng như bảng ở bước 03. MCP được gộp vào cấu hình người dùng của ứng dụng, nên mọi thư mục mở trong ứng dụng dùng chung server của checkout này: mỗi máy trỏ một checkout. <a class="plain-link" href="https://github.com/OPC-VN/agent-data-studio/blob/main/hosts/README.md#mcp-được-đăng-ký-ở-cấu-hình-người-dùng">Xem giới hạn</a></p>
     </section>
 
     <section class="journey-step" id="su-co">
@@ -248,7 +248,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Hosts codex</
         <div class="card"><h3>Script bị chặn</h3><p>Nếu cả lệnh có <code>-ExecutionPolicy Bypass</code> cũng bị chặn, đó là chính sách của tổ chức. Nhờ IT, không tự vượt.</p></div>
         <div class="card"><h3>Agent muốn làm việc lạ</h3><p>Đổi chính sách máy, đọc mật khẩu, tải script từ nơi khác repo: từ chối và yêu cầu agent quay lại hướng dẫn trong repo.</p></div>
       </div>
-      <p style="margin-top:18px"><a class="plain-link" href="../instruction/">Hướng dẫn sử dụng</a> · <a class="plain-link" href="../architecture/">Thiết kế hệ thống</a> · <a class="plain-link" href="https://github.com/ducnguyen221/agent-data-studio/issues">Gửi lỗi trên GitHub</a></p>
+      <p style="margin-top:18px"><a class="plain-link" href="../instruction/">Hướng dẫn sử dụng</a> · <a class="plain-link" href="../architecture/">Thiết kế hệ thống</a> · <a class="plain-link" href="https://github.com/OPC-VN/agent-data-studio/issues">Gửi lỗi trên GitHub</a></p>
     </section>
   </div>
   <aside class="setup-rail" aria-label="Mục lục cài đặt">
@@ -281,10 +281,10 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -Hosts codex</
         </div>
         <div class="foot-col">
           <b>Tài nguyên</b>
-          <a href="https://github.com/ducnguyen221/agent-data-studio" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://github.com/ducnguyen221/agent-data-studio/blob/main/ROADMAP.md" target="_blank" rel="noopener">Roadmap</a>
-          <a href="https://github.com/ducnguyen221/agent-data-studio/blob/main/docs/CHANGELOG.md" target="_blank" rel="noopener">Changelog</a>
-          <a href="https://github.com/ducnguyen221/agent-data-studio/blob/main/docs/UAT-REPORT.md" target="_blank" rel="noopener">UAT lưu trữ</a>
+          <a href="https://github.com/OPC-VN/agent-data-studio" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://github.com/OPC-VN/agent-data-studio/blob/main/ROADMAP.md" target="_blank" rel="noopener">Roadmap</a>
+          <a href="https://github.com/OPC-VN/agent-data-studio/blob/main/docs/CHANGELOG.md" target="_blank" rel="noopener">Changelog</a>
+          <a href="https://github.com/OPC-VN/agent-data-studio/blob/main/docs/UAT-REPORT.md" target="_blank" rel="noopener">UAT lưu trữ</a>
         </div>
       </div>
     </div>

@@ -13,8 +13,8 @@ import re
 import pytest
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OFFICIAL_REPO = "https://github.com/ducnguyen221/agent-data-studio"
-RAW_INSTALL_URL = "https://raw.githubusercontent.com/ducnguyen221/agent-data-studio/main/INSTALL.md"
+OFFICIAL_REPO = "https://github.com/OPC-VN/agent-data-studio"
+RAW_INSTALL_URL = "https://raw.githubusercontent.com/OPC-VN/agent-data-studio/main/INSTALL.md"
 PROMPT_START = {
     "vi": "Hãy cài Agent Data Studio lên máy Windows này",
     "en": "Install Agent Data Studio on this Windows machine",
